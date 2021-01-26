@@ -28,13 +28,19 @@ Examples of how to solve problems s1-s4  from the terminal are listed below:
 
 ```
 python s1_s3.py --outfile ./result/sp1.json
-```
-```
+
 python s1_s3.py --stopwords ./data/stopwords.txt --outfile ./result/sp2.json
-```
-```
+
 python s1_s3.py --stopwords ./data/stopwords.txt --outfile ./result/sp3.json --punctuations True
-```
-```
+
 python s4.py --outfile ./result/sp4.json
 ```
+
+The files are dynamic enough to allow you to specify the following information:
+
+*  --file which can be a single text document to a directory.
+* --stopwords location of the text files with the stop words.
+* --top how many of the sorted counted words should be returned.
+* --punctuations if True leading and trailing  punctuation will be removed.
+* --outfile location of where the resultant json file is stored
+
