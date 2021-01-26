@@ -17,4 +17,29 @@ Technologies Used:
 - Python 3.5
 - Apache Spark
 
+How to Implement The Models
+------------------
 
+This project was segmented into two main files:
+
+s1-s3.py obviously pertaining to sections s1, s2 and s3. While, s4.py handle the requirements from s4.
+
+Example of how to solve s1 from the terminal:
+
+```
+python s1_s3.py --outfile ./result/sp1.json
+```
+How to solve s2: 
+
+```
+python s1_s3.py --stopwords ./data/stopwords.txt --outfile ./result/sp2.json
+```
+
+s3:
+```
+python s1_s3.py --stopwords ./data/stopwords.txt --outfile ./result/sp3.json --punctuations True
+```
+s4:
+```
+python s4.py --outfile ./result/sp4.json
+```
