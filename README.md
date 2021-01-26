@@ -44,3 +44,9 @@ The files are dynamic enough to allow you to specify the following information:
 * --punctuations if True leading and trailing  punctuation will be removed.
 * --outfile location of where the resultant json file is stored
 
+Authors
+--------------
+
+  [Clint Morris](https://github.com/clint-kristopher-morris)
+
+
