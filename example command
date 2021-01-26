@@ -1,0 +1,4 @@
+s1 python s1_s3.py --outfile ./result/sp1.json
+s2 python s1_s3.py --stopwords ./data/stopwords.txt --outfile ./result/sp2.json
+s3 python s1_s3.py --stopwords ./data/stopwords.txt --outfile ./result/sp3.json --punctuations True
+s4 python s4.py --outfile ./result/sp4.json
