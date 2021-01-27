@@ -10,7 +10,7 @@ This project featured four sub-projects, testing various approaches of word coun
 
 * S3 assumes the goals of S2 in addition it removes leading and trailing punctuation.
 
-* S3 calculates the top 5 TF-IDF scores from each book and complies them together.
+* S4 calculates the top 5 TF-IDF scores from each book and complies them together.
 
 Technologies Used:
 -----------------
